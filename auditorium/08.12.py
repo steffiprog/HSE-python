@@ -34,16 +34,3 @@ customers[„alex_tech“] = [35, „male, „Saint Petersburg“, „rare purch
 #4
 removed_customer = customers.pop("maria28")
 del customers["maria28"]
-
-#5
-import json 
-
-# Открытие 
-with open('data.json', 'r', encoding='utf-8') as f:
- config = json.load(f)
-
-type(config) # dict
-
-# Запись
-with open('data_update.json', 'w', encoding='utf-8') as f:
- json.dump(config, f, ensure_ascii=False, indent=2)
