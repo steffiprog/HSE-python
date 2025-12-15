@@ -99,4 +99,4 @@ capital_text  = " ".join(join_lemmas(x) for x in capital_lemmas)
 make_wordcloud(regional_text, "regional_wordcloud.png")
 make_wordcloud(capital_text, "capital_wordcloud.png")
 
-print("\n🎉 Готово! Облака сохранены в:", OUTPUT_FOLDER)
+print("\nОблака сохранены в:", OUTPUT_FOLDER)
